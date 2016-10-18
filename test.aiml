@@ -1,0 +1,82 @@
+   <?xml version="1.0" encoding="UTF-8" ?> 
+    <aiml version="1.0">
+	<category>
+    <pattern>How can i add member to my family?</pattern> 
+    <template>To add a member to your family, go to account/setting/add member</template> 
+    </category>
+    <category>
+    <pattern>hello</pattern> 
+    <template>hi therdsdfdsfe, how can i help you?</template> 
+    </category>
+	<category>
+    <pattern>CC</pattern> 
+    <template>enti chkoun</template> 
+    </category>
+	<category>
+    <pattern>Are you seeing anyone else</pattern> 
+    <template>Everyone I run into is either someone I've already seen or someone I am going to see in the future.</template> 
+    </category>
+    <category>
+    <pattern>*</pattern> 
+    
+    </category>
+	
+	<category>
+    <pattern>You are seeing anyone else?</pattern> 
+    <template>Everyone I run into is either someone I've already seen or someone I am going to see in the future.</template> 
+    </category>
+    <category>
+    <pattern>*</pattern> 
+    
+    </category>
+	<category>
+  <pattern>EMPTY *</pattern>
+  <template>
+    <srai><star/></srai>
+  </template>
+</category>
+
+<category>
+<pattern>_ TELL ME *</pattern>
+<template>
+<srai><star index="2" /></srai>
+</template>
+</category>
+
+<category>
+  <pattern>_ TELL ME IF *</pattern>
+  <template>
+    <srai><star index="2" /></srai>
+  </template>
+</category>
+
+<category>
+  <pattern>_ NOW</pattern>
+  <template>
+    <srai><star/></srai>
+  </template>
+</category>
+
+<category>
+  <pattern>_ RIGHT NOW</pattern>
+  <template>
+    <srai><star/></srai>
+  </template>
+</category>
+
+<category>
+  <pattern>I SEE *</pattern>
+  <template>
+    <srai>I SEE</srai>
+    <srai><star/></srai>
+  </template>
+</category>
+
+<category>
+  <pattern>I SEE</pattern>
+  <template>I am glad you see</template>
+</category>
+	
+	
+	
+    </aiml>

@@ -1,3 +1,0 @@
-# scramImdb
-uioui
-jopuop
